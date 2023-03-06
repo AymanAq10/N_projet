@@ -1,7 +1,9 @@
 import ReactDOM from 'react-dom/client';
-import App from './App';
-// import './index.css';
 // import App from './App';
+// import App from '../src/Components/App';
+// import Routers from './Components/Routers';
+// import './index.css';
+import App from './App';
 // import App from './Components/App';
 // // import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap/dist/js/bootstrap.js';
@@ -11,6 +13,7 @@ root.render(
     // <App/>
     <BrowserRouter>
         <App />
+        {/* <Routers/> */}
     </BrowserRouter>
 );
 

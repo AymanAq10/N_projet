@@ -10,7 +10,7 @@ body{
 }
 .main{
 	width: 350px;
-	height: 500px;
+	height: 540px;
 	background: #FFFF;
 	overflow: hidden;
 	border-radius: 10px;
@@ -40,12 +40,13 @@ input{
 	background: #e0dede;
 	justify-content: center;
 	display: flex;
-	margin: 20px auto;
-	padding: 18px;
 	border: none;
 	outline: none;
 	border-radius: 5px;
+	margin: 8px auto;
+	padding: 15px;
 }
+
 button{
 	width: 60%;
 	height: 40px;
@@ -79,13 +80,13 @@ button:hover{
 }
 
 #chk:checked ~ .login{
-	transform: translateY(-560px);
+	transform: translateY(-620px);
 }
 #chk:checked ~ .login label{
 	transform: scale(1) translateY(2rem);
 	font-size: 1.8rem;
 }
 #chk:checked ~ .signup label{
-	transform: translateY(-3rem) scale(.6);
+	transform: translateY(-4rem) scale(.6);
 	opacity: 0.6;
 }

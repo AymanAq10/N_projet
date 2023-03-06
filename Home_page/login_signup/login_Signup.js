@@ -1,10 +1,10 @@
 import './style.css';
 import Signup from './SignUp';
 import Login from './Login';
-const Login_signUp = () => {
+const LoginsignUp = () => {
 	return (
 
-		<div class="main">
+		<div className="main">
 
 			<input type="checkbox" id="chk" aria-hidden="true" />
 
@@ -14,4 +14,4 @@ const Login_signUp = () => {
 		</div>
 	);
 }
-export default Login_signUp;
+export default LoginsignUp;

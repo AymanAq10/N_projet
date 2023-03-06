@@ -1,18 +1,18 @@
 import './Home_page/login_signup/style.css'
 import Home from "./Home_page/Home";
-import Login_signUp from "./Home_page/login_signup/login_Signup";
+import LoginsignUp from "./Home_page/login_signup/login_Signup";
 import Login from './Home_page/login_signup/SignUp';
 import Signup from './Home_page/login_signup/Login';
 import { Routes, Route, Link } from 'react-router-dom';
-const App = ()=>{
+const App = (props)=>{
 
     return (
         <>
             <div>
                 <Routes>
                     <Route path='/' element={<Home/>}/>
-                    <Route path='/Signup' element={<Signup/>}/>
-                    <Route path='/Login' element={<Login/>}/>
+                    <Route path='/Signup' element={<LoginsignUp/>}/>
+                    <Route path='/Login' element={<LoginsignUp/>}/>
                 </Routes>
             </div>
         </>
